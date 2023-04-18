@@ -3,7 +3,7 @@ import { SUCCESS, FAIL } from "../constants/restconstants";
 
 export const restList = () => async (dispatch) => {
     try {
-        const { data } = await axios.get("/restaurants(1).json")
+        const { data } = await axios.get("/restaurants.json")
         // console.log(data.restaurants);
         dispatch(
             {
