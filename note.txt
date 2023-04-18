@@ -1,0 +1,142 @@
+react--
+------------------
+commands-
+ npx create-react-app appname-for project creation
+ run command-npm start
+
+ building blocks of react-
+ -------------------------
+
+ we need html,css,javascript
+
+ Angular-                          react-
+ ----------                          -------------
+ -js **framework**                    -**library** of js
+-framework already has            -structure can be changed.workflow
+ a structure-cannot change         can be controlled
+ that structure/not developer
+ friendly.
+-both has dom-in angular we       - **virtual dom**
+use **real dom**     
+-real dom-physical ayt kanan      -physical ayt kanila.imaginary dom
+pattum.runtime is more            -run time is slow .next.js -framework of react. 
+
+Advantages of React-
+------------------------
+1-React uses virtual dom(runtime is less)
+2-components reusability is high.
+3-jsx(javascript xml)-used for coding-randum mix chyth use cheyyanene jsx enn parayum.
+4-fast and flexible.
+
+components in React-
+-------------------
+1-class based-stateful components
+2-function based-stateless components
+
+state
+---------
+object used to store datas inside a component in react
+react hooks-implemented in react that helps us to create state
+//check your note//
+useState=hook helps to create state-from react 
+
+sharing state between components
+--------------------------------
+from parent to child
+concept used for shgaring data from parent to child comp-//props//
+destructuring-functionte bracketl {} nte ullil sdata calla cheyyuka.props use cheyyanda.
+
+API call in javascript
+----------------------
+Ajax-asynchronous javascript and xml-method for api call
+in ajax we use 2 methods-***xml http***  and ***fetch***
+there is a  third method-***async await***
+
+data venda component an api call cheyyendath-page open avumba thanne kanikanam.
+store cheyyan state create cheyyanam.asynchronous calline access cheyyanath nokanam.json filene
+jslek convert cheyyanam.
+
+first create a state.
+
+first working hook of a component-
+---------------------------------
+useEffect-reactl thanne olla hookan.
+
+
+redirection in react
+------------------------
+react-router-library for redirection in react
+WE NEED 3 components
+1.Browser router-wrap the main component inside browser router component
+2.Router-wrap component inside Router which need redirection
+3.Routes-wrap all the router if we set morethan one component paths
+
+-we use ***Link*** component in react router dom for redirection
+
+useParams=hook used to access params inside react-router-dom
+
+redux
+---------------
+props drilling-when coupling increases in components there is a chance for props drilling
+coupling- data sharing from parent to child 
+props drilling-at the time  of data sharing from parent to child if any intermediate component have any errors  then data willbe stuck and its child componentcannot access its
+
+REDUX-State management technology-we  need to reduce coupling and makes all components independent to avoid props drilling-check youer notes
+
+store-a file used to store datas in redux -all the components can access data inside the store
+
+workflow in redux-check your notebook
+
+
+
+libraries for redux=
+         * redux
+         * react-redux
+         * redux-thunk
+         command=npm i redux react-redux redux-thunk
+store creation= method in redux for creation is= **create store**
+combineReducers=method  for combining many combineReducers
+reduxine asychronous aakan-nammal middleware-use cheyyum.
+actually rdeux is synchronous so all asynchronous functions inside redux will behave like synchronous
+
+-------------------------------------------------
+mthod/library for creating middleware=thunk
+
+tag for store=provider
+
+12/04/2023
+http methods in react
+----------------------
+library used to call apis-Axios
+install library -npm i axios
+
+useDispatch-*****Hook***** used to dispatch a function in a component
+useSelector - *****hook***** used to access data from store
+
+restaurant.js removed code.
+   //state to hold data from api
+// var [restaurantList,setRestaurant]=useState([])
+//api call oru functionayt create cheyyuka.data venda tyml functione call cheyyuka
+//arguments kodkanen munne async kodkanam
+//
+// const fetchData=async()=>{
+//    const result= await fetch('/restaurants (1).json')
+   //convert using json method
+  //  result.json().then(data=>{
+    // setRestaurant(data.restaurants)
+
+
+  //  })
+// }
+// console.log(restaurantList);
+
+
+
+
+
+
+
+
+
+
+

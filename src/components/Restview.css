@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+.restHead{
+    font-family: 'Fasthand', cursive;
+    overflow: hidden;
+
+}
+
+#anim{
+    transition: .2s ease-in-out;
+  }
+  #anim:hover{
+    transform: scale(1.01);
+  }
+  
